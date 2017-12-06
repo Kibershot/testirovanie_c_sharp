@@ -22,12 +22,13 @@ namespace testirovanie
         public int bad = 0;
         //public List<int> bad = new List<int>();
 
-
+        OutVp Out = new OutVp();
+        
 
         public Testing()
         {
             InitializeComponent();
-
+            Out.num = 0;
             checkBox1.Hide();
             checkBox2.Hide();
             checkBox3.Hide();
@@ -38,14 +39,14 @@ namespace testirovanie
             a = f.ReadToEnd().Split('\n');
             String s = a[0];
             String[] vp = s.Split(new char[] { '|' }, StringSplitOptions.RemoveEmptyEntries);
-            label1.Text = vp[0];
-            label2.Text = vp[1];
-            label3.Text = vp[2];
-            label4.Text = vp[3];
-            if(vp.Length==5)
+            label1.Text = Out.Rez(0);
+            label2.Text = Out.Rez(1);
+            label3.Text = Out.Rez(2);
+            label4.Text = Out.Rez(3);
+            if (vp.Length==5)
             {
                 radioButton4.Show();
-                label5.Text = vp[4];
+                label5.Text = Out.Rez(4);
             }
             else
             {
@@ -82,7 +83,7 @@ namespace testirovanie
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+            Out.num++;
             label6.Text = otv_p.ToString()+" "+bad.ToString();
             //Itog itog = new Itog();
             if (radioButton1.Checked==true) {
@@ -186,6 +187,19 @@ namespace testirovanie
         private void label6_Click(object sender, EventArgs e)
         {
 
+        }
+
+
+        public string LabelText
+        {
+            get
+            {
+                return this.label1.Text;
+            }
+            set
+            {
+                this.label1.Text = value;
+            }
         }
     }
 }
