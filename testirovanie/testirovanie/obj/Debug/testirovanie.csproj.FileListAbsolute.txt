@@ -1,0 +1,12 @@
+F:\Repozitory\testirovanie\testirovanie\testirovanie\bin\Debug\testirovanie.exe
+F:\Repozitory\testirovanie\testirovanie\testirovanie\bin\Debug\testirovanie.pdb
+F:\Repozitory\testirovanie\testirovanie\testirovanie\obj\Debug\testirovanie.csprojResolveAssemblyReference.cache
+F:\Repozitory\testirovanie\testirovanie\testirovanie\obj\Debug\testirovanie.Form1.resources
+F:\Repozitory\testirovanie\testirovanie\testirovanie\obj\Debug\testirovanie.Properties.Resources.resources
+F:\Repozitory\testirovanie\testirovanie\testirovanie\obj\Debug\testirovanie.csproj.GenerateResource.Cache
+F:\Repozitory\testirovanie\testirovanie\testirovanie\obj\Debug\testirovanie.csproj.CoreCompileInputs.cache
+F:\Repozitory\testirovanie\testirovanie\testirovanie\obj\Debug\testirovanie.exe
+F:\Repozitory\testirovanie\testirovanie\testirovanie\obj\Debug\testirovanie.pdb
+F:\Repozitory\testirovanie\testirovanie\testirovanie\obj\Debug\testirovanie.TMenu.resources
+F:\Repozitory\testirovanie\testirovanie\testirovanie\obj\Debug\testirovanie.Testing.resources
+F:\Repozitory\testirovanie\testirovanie\testirovanie\obj\Debug\testirovanie.Itog.resources
